@@ -1,0 +1,37 @@
+body {
+    background-image: url(../images/hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+/*   float: right;*/
+    text-align: center;
+    background-image: url(../img/landing.jpg);
+}
+.column1{ float: left; width: 33%;
+order:1;
+}
+.column2{ float: right; width: 33%;
+order:2;
+}
+.column3{ display: inline-block; width: 33%;
+order:3;
+}
+.column4{ display: inline-block; text-align: right;
+order:4;
+}
+#myfood {
+  margin: 30px;
+}
+.secondbg {
+  background-image: url(../img/myfoods.jpg);
+}
+.btn {
+  background-color: #F15A29 ;
+}
+.btn:hover {
+  color: #80000;
+  /*text-decoration-color: #F15A29 ;*/
+}
+body {
+  margin: 20px;
