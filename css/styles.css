@@ -35,3 +35,11 @@ order:4;
 }
 body {
   margin: 20px;
+}
+
+#fastfood {
+  margin: 30px;
+}
+.secondbg {
+  background-image: url(../img/foodsBg.jpg);
+}
