@@ -43,3 +43,11 @@ body {
 .secondbg {
   background-image: url(../img/foodsBg.jpg);
 }
+.pip {
+  text-align: center;
+}
+#drink-pic {
+  padding: 50px 20px 20px 20px;
+  box-shadow: 10px 10px 10px 10px;
+  10px;
+}

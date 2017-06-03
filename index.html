@@ -1,15 +1,9 @@
-<html>
-<title>Welcome to Anita's Kitchen</title>
-
+<html><title>Welcome to Anita's Kitchen</title>
 <head>
-
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="jquery-3.2.1.js"></script>
 </head>
-<button type="button" class="btn btn-primary">Menu</button>
-<button type="button" class="btn btn-success">Waiters</button>
-
 <body>
     <div class="header">
         <p class="header">
@@ -17,7 +11,15 @@
     </div>
     <div>
         <div class="container"></div>
-        <div class="column1">Happy Hour</div>
+        <div class="row">
+    <div class="col-md-3">
+      <div class="ht">
+        Happy Hour
+      </div>
+      <div class="pt">
+        Party Time
+      </div>
+    </div>
         <div class="column2">Breakfast</div>
         <div class="column3">Lunch</div>
 
@@ -55,16 +57,31 @@
         </ul>
         <div class="col-md-4">
         <img src="img/chickenBurger.jpg" alt="ChickenBurger">
-          <h4>  ChickenBurger  </h4>
+          <h3>  ChickenBurger  </h3>
         </div>
 
         <div class="col-md-4"><img src="img/beefBurger.jpg" alt="BeefBurger">
-          <h4>  BeefBurger </h4>
+          <h3>  BeefBurger </h3>
         </div>
         <div class="col-md-4"><img src="img/chickenPizza.jpg" alt="Pizza">
-          <h4>  ChickenPizza </h4>
+          <h3>  ChickenPizza </h3>
+        </div>
+        <div class="row" id="customers">
+              <div class="container">
+                <div class="col-xs-6">
+                  <h2 class="happy">Our Happy Customers</h2>
+                  <h3 class="pip">George Richard</h3>
+                  <p class="pip">Great food! Menu is awesome, there foods are not only great but also in</br> the right price. I'll highly recommend them.</p>
+                  <div class="pip">
+                    <span class="pics"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></span>
+                    <img src="img/p1.png">
+                    <img src="img/p3.png">
+                    <img src="img/p2.png">
+                    <span class="pics"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span>
+                  </div>
+                </div>
+            </div>
         </div>
 
 </body>
-
 </html>
