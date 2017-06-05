@@ -35,9 +35,6 @@ body {
 #fastfood {
   margin: 30px;
 }
-.secondbg {
-  background-image: url(../img/foodsBg.jpg);
-}
 #drink-pic {
   padding: 50px 20px 20px 20px;
   box-shadow: 10px 10px 10px 10px;
@@ -48,6 +45,7 @@ body {
 }
 #Menu {
   float: center;
+  /*text-align: right;*/
 }
 .footlogo {
   padding: 10px;
@@ -62,9 +60,10 @@ body {
   color: #F15A29 ;
 }
 .happy {
-  text-align: right;
+  /*text-align: right;*/
   border-bottom: 5px;
   border-color: black;
+
 }
 .foot {
   text-align: center;
@@ -76,5 +75,10 @@ body {
 text-align: center;
 color: white;
 padding: 80px;
-background-image: url(../img/subscribe.jpg);
+/*background-image: url(../img/subscribe.jpg);*/
+}
+#burhan{
+    background-image: url(../img/subscribe.jpg);
+    text-align: center;
+    color: white;
 }
